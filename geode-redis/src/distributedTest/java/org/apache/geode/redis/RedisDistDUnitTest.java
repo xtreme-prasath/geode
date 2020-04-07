@@ -43,7 +43,6 @@ import org.apache.geode.test.dunit.rules.MemberVM;
 import org.apache.geode.test.junit.categories.RedisTest;
 
 @Category({RedisTest.class})
-@Ignore("GEODE-7905")
 public class RedisDistDUnitTest implements Serializable {
 
   @ClassRule
